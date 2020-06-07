@@ -8,7 +8,7 @@ var taskController = require('./app/task/taskController');
 // Defining variables
 var SERVER_PORT = 5000;
 
-/*
+
 var app = express();
 
 
@@ -25,6 +25,7 @@ app.post('/api/v1.0/task',taskController.createTask);
 // Get all task resource
 app.get('/api/v1.0/task',taskController.getTask);
 
+/*
 // Get task by id
 //app.get('/api/v1.0/task/id/:taskId',taskController.getTaskById);
 
@@ -34,7 +35,7 @@ app.get('/api/v1.0/task',taskController.getTask);
 // Update task status by id
 //app.put('/api/v1.0/task/id/:taskId',taskController.updateTaskById);
 
-
+*/
 
 // this wrapper is only for testing purpose
 if(!module.parent){
@@ -47,8 +48,3 @@ if(!module.parent){
 module.exports = app;
 
 
-
-
-*/
-
-console.log("I am listenning");
