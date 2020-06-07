@@ -8,6 +8,7 @@ var taskController = require('./app/task/taskController');
 // Defining variables
 var SERVER_PORT = 5000;
 
+/*
 var app = express();
 
 
@@ -48,3 +49,6 @@ module.exports = app;
 
 
 
+*/
+
+console.log("I am listenning");
